@@ -63,6 +63,7 @@ header .menu {
   height: 50px;
   font-weight: 600;
   font-size: 14px;
+  cursor: pointer;
   margin-right: 15px;
 }
 .hero .profile-info .contact-info {
@@ -73,6 +74,7 @@ header .menu {
   height: 50px;
   font-weight: 600;
   font-size: 14px;
+  cursor: pointer;
   background-color: #353535;
   color: white;
 }
@@ -136,11 +138,11 @@ header .menu {
 .about .about-me .about-blocks .my-experience,
 .about .about-me .about-blocks .education {
   width: 325px;
-  height: 140px;
+  height: 155px;
   border-radius: 30px;
   border: 1px solid #A3A3A3;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 15px;
 }
 .about .about-me .about-blocks .my-experience a,
 .about .about-me .about-blocks .education a {
@@ -157,7 +159,7 @@ header .menu {
   font-size: 19px;
   margin-top: 0px;
   color: rgb(15, 15, 15);
-  margin-bottom: 0px;
+  margin-bottom: 5px;
 }
 .about .about-me .about-blocks .my-experience h3,
 .about .about-me .about-blocks .education h3 {
@@ -176,6 +178,7 @@ header .menu {
 }
 
 .experience {
+  padding-top: 30px;
   text-align: center;
   margin: auto;
   margin-bottom: 100px;
@@ -251,6 +254,7 @@ header .menu {
 }
 
 .projects {
+  padding-top: 30px;
   margin-bottom: 200px;
   margin-top: 200px;
   text-align: center;
@@ -375,4 +379,8 @@ footer p {
 body {
   font-family: "Poppins", Arial;
   margin: 0px;
+}
+
+html {
+  scroll-behavior: smooth;
 }/*# sourceMappingURL=general.css.map */
