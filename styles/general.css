@@ -297,6 +297,7 @@ header .menu {
   font-weight: 600;
   margin-bottom: 20px;
   font-size: 15px;
+  cursor: pointer;
 }
 .projects-list .project .access-project .live-demo {
   background-color: #353535;
@@ -345,6 +346,10 @@ header .menu {
 }
 .contact-box .linkedin-box {
   margin-left: 30px;
+}
+.contact-box a {
+  color: rgb(15, 15, 15);
+  text-decoration: none;
 }
 
 footer {
