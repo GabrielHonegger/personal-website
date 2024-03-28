@@ -1,0 +1,373 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+  height: 80px;
+  align-items: center;
+}
+header .name {
+  font-size: 28px;
+  color: rgb(15, 15, 15);
+}
+header a {
+  color: rgb(15, 15, 15);
+  text-decoration: none;
+}
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  font-size: 18px;
+}
+
+.hero {
+  margin: auto;
+  margin-top: 100px;
+  width: 51%;
+  display: flex;
+  justify-content: space-between;
+}
+.hero .profile-picture {
+  width: 350px;
+  border-radius: 200px;
+  margin-right: 50px;
+}
+.hero .profile-info {
+  text-align: center;
+  margin-top: 30px;
+}
+.hero .profile-info p {
+  color: #555555;
+  font-weight: 600;
+}
+.hero .profile-info h2 {
+  color: rgb(15, 15, 15);
+  font-size: 36px;
+  letter-spacing: 0em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.hero .profile-info h3 {
+  color: #555555;
+  font-size: 26px;
+  margin-top: 10px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.hero .profile-info .download-cv {
+  width: 135px;
+  border-radius: 100px;
+  background-color: white;
+  border: 1px solid #353535;
+  height: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 15px;
+}
+.hero .profile-info .contact-info {
+  width: 135px;
+  border-radius: 100px;
+  background-color: white;
+  border: 1px solid #353535;
+  height: 50px;
+  font-weight: 600;
+  font-size: 14px;
+  background-color: #353535;
+  color: white;
+}
+.hero .profile-info .social-networks {
+  display: flex;
+  margin: auto;
+  margin-top: 20px;
+  width: 85px;
+  justify-content: space-between;
+}
+.hero .profile-info .social-networks .linkedin img,
+.hero .profile-info .social-networks .github img {
+  width: 35px;
+}
+
+.about {
+  height: 600px;
+  width: 80%;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 20px;
+}
+.about .about-title h2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #555555;
+  margin-bottom: 0px;
+}
+.about .about-title h1 {
+  font-size: 46px;
+  margin-top: 0px;
+  font-weight: 600;
+  color: rgb(15, 15, 15);
+  margin-bottom: 50px;
+}
+.about .about-title h1 {
+  margin-bottom: 30px;
+}
+.about .about-content {
+  display: flex;
+  align-items: center;
+}
+.about .about-content img {
+  width: 400px;
+  border-radius: 30px;
+  margin-right: 50px;
+}
+.about .about-content p {
+  color: #353535;
+  text-align: left;
+}
+.about .about-me p {
+  color: #555555;
+  margin-top: 30px;
+}
+.about .about-me .about-blocks {
+  display: flex;
+  justify-content: space-between;
+}
+.about .about-me .about-blocks .my-experience,
+.about .about-me .about-blocks .education {
+  width: 325px;
+  height: 140px;
+  border-radius: 30px;
+  border: 1px solid #A3A3A3;
+  text-align: center;
+  padding-top: 20px;
+}
+.about .about-me .about-blocks .my-experience a,
+.about .about-me .about-blocks .education a {
+  text-decoration-color: #555555;
+}
+.about .about-me .about-blocks .my-experience img,
+.about .about-me .about-blocks .education img {
+  width: 30px;
+  border-radius: 0px;
+  margin: auto;
+}
+.about .about-me .about-blocks .my-experience h2,
+.about .about-me .about-blocks .education h2 {
+  font-size: 19px;
+  margin-top: 0px;
+  color: rgb(15, 15, 15);
+  margin-bottom: 0px;
+}
+.about .about-me .about-blocks .my-experience h3,
+.about .about-me .about-blocks .education h3 {
+  color: #555555;
+  font-weight: 400;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: 3px;
+}
+.about .about-me .about-blocks .my-experience h4,
+.about .about-me .about-blocks .education h4 {
+  font-size: 16px;
+  margin-top: 0px;
+  font-weight: 400;
+  color: #555555;
+}
+
+.experience {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  width: 90%;
+}
+.experience .experience-title h2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #555555;
+  margin-bottom: 0px;
+}
+.experience .experience-title h1 {
+  font-size: 46px;
+  margin-top: 0px;
+  font-weight: 600;
+  color: rgb(15, 15, 15);
+  margin-bottom: 50px;
+}
+.experience .experience-title h1 {
+  margin-bottom: 40px;
+}
+.experience .experience-inside {
+  display: flex;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+}
+.experience .experience-inside img {
+  width: 420px;
+  height: 370px;
+  margin-right: 50px;
+  border-radius: 30px;
+}
+.experience .experience-inside .experience-blocks .frontend-block {
+  max-width: 600px;
+  border-radius: 30px;
+  border: 1px solid #A3A3A3;
+}
+.experience .experience-inside .experience-blocks .frontend-block h1 {
+  font-size: 26px;
+  color: #555555;
+  padding-top: 15px;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+.experience .experience-inside .experience-blocks .frontend-block .all-skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0px 10px 0px 50px;
+}
+.experience .experience-inside .experience-blocks .frontend-block .all-skills .skill {
+  display: grid;
+  width: 200px;
+  grid-template-columns: 50px 150px;
+}
+.experience .experience-inside .experience-blocks .frontend-block .all-skills .skill img {
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+}
+.experience .experience-inside .experience-blocks .frontend-block .all-skills .skill .skill-info {
+  text-align: left;
+}
+.experience .experience-inside .experience-blocks .frontend-block .all-skills .skill .skill-info h3 {
+  margin-bottom: 0px;
+}
+.experience .experience-inside .experience-blocks .frontend-block .all-skills .skill .skill-info h4 {
+  color: #353535;
+  margin-top: 0px;
+  font-weight: 400;
+}
+
+.projects {
+  margin-bottom: 200px;
+  margin-top: 200px;
+  text-align: center;
+}
+.projects .project-title h2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #555555;
+  margin-bottom: 0px;
+}
+.projects .project-title h1 {
+  font-size: 46px;
+  margin-top: 0px;
+  font-weight: 600;
+  color: rgb(15, 15, 15);
+  margin-bottom: 50px;
+}
+
+.projects-list {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: center;
+}
+.projects-list .project {
+  width: 350px;
+  border: 1px solid #A3A3A3;
+  border-radius: 30px;
+  margin-right: 30px;
+}
+.projects-list .project h2 {
+  font-size: 28px;
+}
+.projects-list .project img {
+  margin-top: 25px;
+  width: 275px;
+  border-radius: 30px;
+}
+.projects-list .project .access-project button {
+  background-color: white;
+  padding: 15px 25px;
+  border: 1px solid #A3A3A3;
+  border-radius: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.projects-list .project .access-project .live-demo {
+  background-color: #353535;
+  color: white;
+  border: none;
+  margin-left: 10px;
+}
+
+.contact {
+  margin-bottom: 100px;
+  text-align: center;
+}
+.contact .contact-title h2 {
+  font-size: 17px;
+  font-weight: 400;
+  color: #555555;
+  margin-bottom: 0px;
+}
+.contact .contact-title h1 {
+  font-size: 46px;
+  margin-top: 0px;
+  font-weight: 600;
+  color: rgb(15, 15, 15);
+  margin-bottom: 50px;
+}
+
+.contact-box {
+  width: 500px;
+  margin: auto;
+  height: 6%;
+  border: 1px solid #555555;
+  justify-content: center;
+  display: flex;
+  border-radius: 30px;
+  padding: 10px 20px;
+}
+.contact-box img {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+}
+.contact-box .email-box,
+.contact-box .linkedin-box {
+  display: flex;
+  align-items: center;
+}
+.contact-box .linkedin-box {
+  margin-left: 30px;
+}
+
+footer {
+  margin-bottom: 50px;
+  text-align: center;
+}
+footer a {
+  color: rgb(15, 15, 15);
+  text-decoration: none;
+}
+footer .menu {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  width: 500px;
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+footer p {
+  color: #555555;
+}
+
+body {
+  font-family: "Poppins", Arial;
+  margin: 0px;
+}/*# sourceMappingURL=general.css.map */

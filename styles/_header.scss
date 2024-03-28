@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin: auto;
+    height: 80px;
+    align-items: center;
+    .name {
+        font-size: 28px;
+        color: $darkBlack;
+    }
+    a {
+        color: $darkBlack;
+        text-decoration: none;
+    }
+    .menu {
+        display: flex;
+        justify-content: space-between;
+        width: 500px;
+        font-size: 18px;
+    }
+}

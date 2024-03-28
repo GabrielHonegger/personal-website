@@ -1,0 +1,54 @@
+.hero {
+    margin: auto;
+    margin-top: 100px;
+    width: 51%;
+    display: flex;
+    justify-content: space-between;
+    .profile-picture {
+        width: 350px;
+        border-radius: 200px;
+        margin-right: 50px;
+    }
+    .profile-info {
+        text-align: center;
+        margin-top: 30px;
+        p {
+            color: $gray1;
+            font-weight: 600;
+        }
+        h2 {
+            color: $darkBlack;
+            font-size: 36px;
+            letter-spacing: 0em;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+        h3 {
+            color: $gray1;
+            font-size: 26px;
+            margin-top: 10px;
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+        .download-cv {
+            @include buttonBasics();
+            margin-right: 15px
+        }
+        .contact-info {
+            @include buttonBasics();
+            background-color: $gray2;
+            color: white;
+        }
+        .social-networks {
+            display: flex;
+            margin: auto;
+            margin-top: 20px;
+            width: 85px;
+            justify-content: space-between;
+            .linkedin img,
+            .github img {
+                width: 35px;
+            }
+        }
+    }
+}
