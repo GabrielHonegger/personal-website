@@ -445,7 +445,7 @@ header button {
   .about .about-content p {
     color: #353535;
     text-align: left;
-    font-size: 18px;
+    font-size: 17px;
   }
   .about .about-me p {
     color: #555555;
@@ -968,6 +968,7 @@ header button {
   }
   footer p {
     color: #555555;
+    font-size: 15px;
   }
 }
 body {
