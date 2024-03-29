@@ -1,67 +1,153 @@
-.about {
-    height: 600px;
-    width: 80%;
-    margin: auto;
-    margin-top: 100px;
-    text-align: center;
-    padding: 20px;
-    .about-title {
-        @include titles();
-        h1 {
-            margin-bottom: 30px;
+@media (min-width: 1201px) {
+    .about {
+        width: 80%;
+        margin: auto;
+        margin-top: 100px;
+        text-align: center;
+        padding: 20px;
+        .about-title {
+            @include titles();
+            h1 {
+                margin-bottom: 30px;
+            }
         }
-    }
-    .about-content {
-        display: flex;
-        align-items: center;
-        img {
-            width: 400px;
-            border-radius: 30px;
-            margin-right: 50px;
-        }
-        p {
-            color: $gray2;
-            text-align: left;
-        }
-    }
-    .about-me {
-        p {
-            color: $gray1;
-            margin-top: 30px;
-        }
-        .about-blocks {
+        .about-content {
             display: flex;
-            justify-content: space-between;
-            .my-experience,
-            .education {
-                a {
-                    text-decoration-color: $gray1;
+            align-items: center;
+            img {
+                width: 400px;
+                border-radius: 30px;
+                margin-right: 50px;
+            }
+            p {
+                color: $gray2;
+                text-align: left;
+            }
+        }
+        .about-me {
+            p {
+                color: $gray1;
+                margin-top: 30px;
+            }
+            .about-blocks {
+                display: flex;
+                gap: 20px;
+                .my-experience,
+                .education {
+                    flex: 1;
+                    border-radius: 30px;
+                    border: 1px solid $gray3;
+                    text-align: center;
+                    padding: 15px 20px;
+                    a {
+                        text-decoration-color: $gray1;
+                    }
+                    
+                    img {
+                        width: 30px;
+                        border-radius: 0px;
+                        margin: auto;
+                    }
+                    h2 {
+                        font-size: 19px;
+                        margin-top: 0px;
+                        color: $darkBlack;
+                        margin-bottom: 5px;
+                    }
+                    h3 {
+                        color: $gray1;
+                        font-weight: 400;
+                        font-size: 16px;
+                        margin-top: 0px;
+                        margin-bottom: 3px;
+                    }
+                    h4 {
+                        font-size: 16px;
+                        margin-top: 0px;
+                        font-weight: 400;
+                        color: $gray1;
+    
+                    }
                 }
-                @include aboutBlocks();
-                img {
-                    width: 30px;
-                    border-radius: 0px;
-                    margin: auto;
-                }
-                h2 {
-                    font-size: 19px;
-                    margin-top: 0px;
-                    color: $darkBlack;
-                    margin-bottom: 5px;
-                }
-                h3 {
-                    color: $gray1;
-                    font-weight: 400;
-                    font-size: 16px;
-                    margin-top: 0px;
-                    margin-bottom: 3px;
-                }
-                h4 {
-                    font-size: 16px;
-                    margin-top: 0px;
-                    font-weight: 400;
-                    color: $gray1;
+            }
+        }
+    }
+}
 
+@media (max-width: 1200px) {
+    .about {
+        width: 90%;
+        margin: auto;
+        margin-top: 100px;
+        text-align: center;
+        padding: 20px;
+        .about-title {
+            @include titles();
+            h1 {
+                margin-bottom: 0px;
+            }
+        }
+        .about-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 250px;
+                border-radius: 30px;
+                margin: auto;
+            }
+            p {
+                color: $gray2;
+                text-align: left;
+            }
+        }
+        .about-me {
+            p {
+                color: $gray1;
+                margin-top: 30px;
+            }
+            .about-blocks {
+                display: flex;
+                justify-content: space-between;
+                gap: 30px;
+                .my-experience,
+                .education {
+                    flex: 1;
+                    margin-top: 30px;
+                    height: 155px;
+                    border-radius: 30px;
+                    border: 1px solid $gray3;
+                    text-align: center;
+                    padding: 15px 20px;
+                    a {
+                        text-decoration-color: $gray1;
+                    }
+                    
+                    img {
+                        width: 30px;
+                        border-radius: 0px;
+                        margin: auto;
+                    }
+                    h2 {
+                        font-size: 19px;
+                        margin-top: 0px;
+                        color: $darkBlack;
+                        margin-bottom: 5px;
+                    }
+                    h3 {
+                        color: $gray1;
+                        font-weight: 400;
+                        font-size: 16px;
+                        margin-top: 0px;
+                        margin-bottom: 3px;
+                    }
+                    h4 {
+                        font-size: 16px;
+                        margin-top: 0px;
+                        font-weight: 400;
+                        color: $gray1;
+    
+                    }
                 }
             }
         }
