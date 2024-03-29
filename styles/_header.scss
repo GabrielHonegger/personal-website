@@ -18,11 +18,13 @@ header {
         display: flex;
         justify-content: space-between;
         margin-left: auto;
+        align-items: center;
         gap: 60px;
         font-size: 18px;
     }
     img {
         display: none;
+        margin-top: -15px;
         width: 30px;
         right: 0px;
         cursor: pointer;
@@ -39,6 +41,7 @@ header {
     header {
         width: 90%;
         .menu {
+            align-items: center;
             display: block;
             img {
                 display: block;
@@ -48,7 +51,7 @@ header {
             }
         }
         .is-active {
-            width: 50%;
+            width: 60%;
             position: fixed;
             display: block;
             top: 0px;
@@ -56,21 +59,24 @@ header {
             height: 100vh;
             flex-direction: column;
             margin-top: 0px;
-            text-align: right;
+            text-align: center;
             background-color: white;
-            border: 1px solid $gray1;
+            border: none;
+            box-shadow: 1px 0px 48px -22px rgba(122,122,122,1);
             a {
                 margin-top: 50px;
                 display: block;
-                margin-right: 10%;
+                font-size: 20px;
             }
             #first-item {
                 margin-top: 100px;
             }
             img {
-                margin-top: 25px;
+                background-image: url("/img/aprovado.png");
+                background-position: 0 0;
+                margin-top: 15px;
                 margin-bottom: 100px;
-                margin-right: 9.8%;
+                margin-right: 9%;
                 display: block;
             }
         }
