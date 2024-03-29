@@ -922,6 +922,7 @@ header button {
   }
   .contact-box a {
     color: rgb(15, 15, 15);
+    font-size: 13px;
   }
 }
 @media (min-width: 1201px) {
