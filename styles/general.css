@@ -906,6 +906,7 @@ header button {
     border: 1px solid #555555;
     display: flex;
     border-radius: 30px;
+    word-break: break-all;
     padding: 10px 10px;
   }
   .contact-box img {
@@ -921,7 +922,6 @@ header button {
   }
   .contact-box a {
     color: rgb(15, 15, 15);
-    font-size: 14px;
   }
 }
 @media (min-width: 1201px) {
