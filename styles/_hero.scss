@@ -61,7 +61,7 @@
     .hero {
         text-align: center;
         margin: auto;
-        margin-top: 100px;
+        margin-top: 50px;
         width: 90%;
         display: flex;
         flex-direction: column;
@@ -69,25 +69,25 @@
         .profile-picture {
             width: 60%;
             border-radius: 400px;
-            max-width: 400px;
+            max-width: 300px;
         }
         .profile-info {
             text-align: center;
-            margin-top: 5px;
             p {
                 color: $gray1;
                 font-weight: 600;
+                margin-bottom: 5px;
             }
             h2 {
                 color: $darkBlack;
-                font-size: 36px;
+                font-size: 28px;
                 letter-spacing: 0em;
                 margin-top: 0px;
                 margin-bottom: 0px;
             }
             h3 {
                 color: $gray1;
-                font-size: 26px;
+                font-size: 22px;
                 margin-top: 10px;
                 font-weight: 400;
                 margin-bottom: 20px;
