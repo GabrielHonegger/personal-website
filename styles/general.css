@@ -5,6 +5,7 @@ header {
   margin: auto;
   height: 80px;
   align-items: center;
+  position: relative;
 }
 header .name {
   font-size: 28px;
@@ -17,10 +18,63 @@ header a {
 header .menu {
   display: flex;
   justify-content: space-between;
-  width: 500px;
+  margin-left: auto;
+  gap: 60px;
   font-size: 18px;
 }
+header img {
+  display: none;
+  width: 30px;
+  right: 0px;
+  cursor: pointer;
+  position: absolute;
+}
+header button {
+  background-color: white;
+  border: none;
+}
 
+@media (max-width: 1200px) {
+  header {
+    width: 90%;
+  }
+  header .menu {
+    display: block;
+  }
+  header .menu img {
+    display: block;
+  }
+  header .menu a {
+    display: none;
+  }
+  header .is-active {
+    width: 50%;
+    position: fixed;
+    display: block;
+    top: 0px;
+    right: 0px;
+    height: 100vh;
+    flex-direction: column;
+    margin-top: 0px;
+    text-align: right;
+    background-color: white;
+    border: 1px solid #555555;
+  }
+  header .is-active a {
+    margin-top: 50px;
+    display: block;
+    margin-right: 10%;
+  }
+  header .is-active #first-item {
+    margin-top: 100px;
+  }
+  header .is-active img {
+    margin-top: 25px;
+    margin-bottom: 100px;
+    margin-right: 9.8%;
+    display: block;
+  }
+}
 .hero {
   margin: auto;
   margin-top: 100px;
