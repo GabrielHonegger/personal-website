@@ -70,7 +70,7 @@ header button {
   header .is-active a {
     margin-top: 50px;
     display: block;
-    font-size: 16px;
+    font-size: 17px;
   }
   header .is-active #first-item {
     margin-top: 100px;
@@ -525,7 +525,6 @@ header button {
   .experience .experience-inside {
     display: flex;
     width: 90%;
-    max-width: 400px;
     justify-content: center;
     margin: auto;
   }
@@ -873,7 +872,6 @@ header button {
   }
   .contact-box a {
     color: rgb(15, 15, 15);
-    text-decoration: none;
   }
 }
 @media (max-width: 1200px) {
@@ -923,7 +921,6 @@ header button {
   }
   .contact-box a {
     color: rgb(15, 15, 15);
-    text-decoration: none;
   }
 }
 @media (min-width: 1201px) {
