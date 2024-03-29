@@ -15,6 +15,7 @@
         .experience-inside {
             display: flex;
             width: 90%;
+            max-width: 400px;
             justify-content: center;
             margin: auto;
             img {
@@ -90,8 +91,9 @@
             text-align: center;
             margin: auto;
             img {
-                width: 340px;
-                height: 300px;
+                width: 90%;
+                height: 20%;
+                max-width: 400px;
                 margin: auto;
                 border-radius: 30px;
             }

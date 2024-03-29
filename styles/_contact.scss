@@ -1,35 +1,82 @@
-.contact {
-    margin-bottom: 100px;
-    text-align: center;
-    .contact-title {
-        @include titles();
+@media (min-width: 1201px) {
+    .contact {
+        margin-bottom: 100px;
+        text-align: center;
+        .contact-title {
+            @include titles();
+        }
+    }
+    
+    .contact-box {
+        width: 500px;
+        margin: auto;
+        height: 6%;
+        border: 1px solid $gray1;
+        justify-content: center;
+        display: flex;
+        border-radius: 30px;
+        padding: 10px 20px;
+        img {
+            width: 30px;
+            height: 30px;
+            margin-right: 8px;
+        }
+        .email-box,
+        .linkedin-box {
+            display: flex;
+            align-items: center;
+        }
+        .linkedin-box {
+            margin-left: 30px;
+        }
+        a {
+            color: $darkBlack;
+            text-decoration: none;
+        }
     }
 }
 
-.contact-box {
-    width: 500px;
-    margin: auto;
-    height: 6%;
-    border: 1px solid $gray1;
-    justify-content: center;
-    display: flex;
-    border-radius: 30px;
-    padding: 10px 20px;
-    img {
-        width: 30px;
-        height: 30px;
-        margin-right: 8px;
+
+
+
+@media (max-width: 1200px) {
+    .contact {
+        margin: auto;
+        width: 90%;
+        margin-bottom: 50px;
+        text-align: center;
+        .contact-title {
+            @include titles();
+            h1 {
+                font-size: 40px;
+                margin-bottom: 20px;
+            }
+        }
     }
-    .email-box,
-    .linkedin-box {
+    
+    .contact-box {
+        max-width: 550px;
+        width: 90%;
+        margin: auto;
+        flex-wrap: wrap;
+        border: 1px solid $gray1;
         display: flex;
-        align-items: center;
-    }
-    .linkedin-box {
-        margin-left: 30px;
-    }
-    a {
-        color: $darkBlack;
-        text-decoration: none;
+        border-radius: 30px;
+        padding: 10px 10px;
+        img {
+            width: 30px;
+            height: 30px;
+            margin-right: 8px;
+        }
+        .email-box,
+        .linkedin-box {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+        }
+        a {
+            color: $darkBlack;
+            text-decoration: none;
+        }
     }
 }

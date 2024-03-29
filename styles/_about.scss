@@ -76,7 +76,7 @@
 
 @media (max-width: 1200px) {
     .about {
-        width: 90%;
+        width: 85%;
         margin: auto;
         margin-top: 100px;
         text-align: center;
@@ -92,13 +92,15 @@
             flex-direction: column;
             align-items: center;
             img {
-                width: 250px;
+                width: 90%;
+                max-width: 400px;
                 border-radius: 30px;
                 margin: auto;
             }
             p {
                 color: $gray2;
                 text-align: left;
+                font-size: 18px;
             }
         }
         .about-me {
@@ -114,7 +116,6 @@
                 .education {
                     flex: 1;
                     margin-top: 30px;
-                    height: 155px;
                     border-radius: 30px;
                     border: 1px solid $gray3;
                     text-align: center;
@@ -153,3 +154,85 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .about {
+        width: 85%;
+        margin: auto;
+        margin-top: 100px;
+        text-align: center;
+        padding: 20px;
+        .about-title {
+            @include titles();
+            h1 {
+                margin-bottom: 0px;
+            }
+        }
+        .about-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 90%;
+                max-width: 400px;
+                border-radius: 30px;
+                margin: auto;
+                margin-bottom: 25px;
+            }
+            p {
+                color: $gray2;
+                text-align: left;
+                font-size: 18px;
+            }
+        }
+        .about-me {
+            p {
+                color: $gray1;
+                margin-top: 30px;
+            }
+            .about-blocks {
+                display: grid;
+                grid-template-columns: 1fr;
+                .my-experience,
+                .education {
+                    flex: 1;
+                    margin-top: 10px;
+                    border-radius: 30px;
+                    border: 1px solid $gray3;
+                    text-align: center;
+                    padding: 15px 20px;
+                    a {
+                        text-decoration-color: $gray1;
+                    }
+                    
+                    img {
+                        width: 30px;
+                        border-radius: 0px;
+                        margin: auto;
+                    }
+                    h2 {
+                        font-size: 19px;
+                        margin-top: 0px;
+                        color: $darkBlack;
+                        margin-bottom: 5px;
+                    }
+                    h3 {
+                        color: $gray1;
+                        font-weight: 400;
+                        font-size: 16px;
+                        margin-top: 0px;
+                        margin-bottom: 3px;
+                    }
+                    h4 {
+                        font-size: 16px;
+                        margin-top: 0px;
+                        font-weight: 400;
+                        color: $gray1;
+    
+                    }
+                }
+            }
+        }
+    }
+}
+
